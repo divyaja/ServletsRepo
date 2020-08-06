@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 public class SqServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		PrintWriter out = res.getWriter();
-		out.print("Hello Sq" + req.getAttribute("k"));
+		out.print("Hello Sq" + req.getAttribute("ki"));
 	}
 
 }
